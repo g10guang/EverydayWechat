@@ -82,8 +82,7 @@ class gfweather:
         # 登陆，尝试 5 次
         for _ in range(5):
             # 命令行显示登录二维码
-            # itchat.auto_login(enableCmdQR=True)
-            itchat.auto_login()
+            itchat.auto_login(enableCmdQR=2)
             if online():
                 print('登录成功')
                 return True
