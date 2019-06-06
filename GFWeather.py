@@ -45,7 +45,7 @@ class gfweather:
             girlfriend_list.append(girlfriend)
 
             print_msg = f"女朋友的微信昵称：{girlfriend.get('wechat_name')}\n\t女友所在城市名称：{girlfriend.get('city_name')}\n\t" \
-                f"在一起的第一天日期：{girlfriend.get('start_date')}\n\t最后一句为：{girlfriend.get('sweet_words')}\n"
+                        f"在一起的第一天日期：{girlfriend.get('start_date')}\n\t最后一句为：{girlfriend.get('sweet_words')}\n"
             init_msg += print_msg
 
         print(u"*" * 50)
@@ -241,7 +241,6 @@ class gfweather:
 
 
 if __name__ == '__main__':
-
     # 直接运行
     # gfweather().run()
 
